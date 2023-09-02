@@ -4,4 +4,3 @@ E=Num*10+1
 for k in range(Num,E,Num):
     print(Num,"x",counter,"= ",k)
     counter=counter+1
-  
