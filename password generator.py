@@ -7,6 +7,4 @@ for pwd in range(n):
     passwords=''
     for c in range(m):
         passwords += random.choice(chars)
-    print(passwords)
-a=int(input("Enter any number and press enter to exit "))
-print(a)    
+    print(passwords)   
