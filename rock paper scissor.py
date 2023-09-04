@@ -54,6 +54,7 @@ for k in range(rounds):
 
     if user not in options:
         print("PLEASE ENTER A VALID CHOICE NEXT TIME")
+        quit()
     else:
         Rule(computer, user)
 
