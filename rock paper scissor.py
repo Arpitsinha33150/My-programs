@@ -47,10 +47,10 @@ print("")
 
 for k in range(rounds):
     print(" ")
-    computer = random.choice(options)
-    print(computer)
     print("Round number", k + 1, ":-")
     user = input("Type 'ROCK', 'SCISSOR', 'PAPER': ").upper()
+    computer = random.choice(options)
+    print(computer)
 
     if user not in options:
         print("PLEASE ENTER A VALID CHOICE NEXT TIME")
